@@ -1,0 +1,63 @@
+.footer {
+  margin-top: 40px;
+  height: 200px;
+  background-color: #252525;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  color: white;
+}
+
+.container ul {
+  list-style: none;
+  padding: 0;
+
+}
+.container ul li {
+  display: inline;
+  font-size: 30px;
+  padding: 0px 25px;
+
+}
+
+.container h2 {
+  font-size: 16px;
+  color:#007965;
+  font-weight: normal;
+}
+
+.container h2:hover{
+  opacity: 0.5;
+}
+
+.fab {
+    color: #75cfb8;
+    transition: font-size 1s, color 1s, transform 1s
+}
+
+.fa-facebook:hover{
+  color:blue;
+  font-size: 45px;
+  transform: rotate(360deg);
+}
+
+.fa-discord:hover{
+  color: #6930c3;
+  font-size: 45px;
+  transform: rotate(360deg);
+}
+
+.fa-youtube:hover{
+  color: red;
+  font-size: 45px;;
+  transform: rotate(360deg);
+}
+
+.fa-github-square:hover{
+  color:black;
+  font-size: 45px;
+  transform: rotate(360deg);
+}

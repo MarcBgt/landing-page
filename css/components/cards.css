@@ -1,0 +1,33 @@
+.card img {
+  height:100px;
+}
+
+.card{
+  width:300px;
+  box-shadow: 0 0 20px rgba(0,0,0,0.1);
+  padding: 20px;
+  text-align: center;
+  border-radius: 4px;
+  transition: width 2s, height 2s, background-color 2s, transform 2s;
+}
+
+.card:hover {
+  background-color: #eb596e;
+  width: 400px;
+  height: 400px;
+  transform: rotate(360deg);
+}
+
+.cards {
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: space-around;
+  color: black;
+}
+
+#cards-title {
+  text-align: center;
+  color: black;
+  font-size: 32px;
+}
+

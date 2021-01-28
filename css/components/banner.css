@@ -1,0 +1,29 @@
+.banner{
+  background-size: cover;
+  background-position: center;
+  height: 600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.container {
+  color: white;;
+}
+.btn-green {
+  background-color: #75cfb8;
+  border-radius: 6px;
+  text-decoration: none;
+  padding: 15px 25px;
+  color: white;
+  font-weight: bold;
+}
+
+.btn-green:hover {
+  background-color: #bbdfc8;
+}
+
+.container p {
+  margin-bottom: 40px;
+}
